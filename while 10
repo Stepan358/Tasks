@@ -1,0 +1,13 @@
+using System;
+class HelloWorld {
+  static void Main() {
+  int N = Convert.ToInt32(Console.ReadLine());
+  int K = 1;
+  while (Math.Pow(3, K) < N)
+    {
+     K++;
+    }
+     Console.WriteLine(K-1) ;
+  
+  }
+}
