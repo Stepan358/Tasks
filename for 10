@@ -1,0 +1,18 @@
+using System;
+ 
+class Program{
+    static void Main() {
+       
+           int i,n;
+        n = Convert.ToInt32 (Console.ReadLine());
+        double s= 0,y;
+        for (i = 0; i < n; i++)
+        {
+            y = i + 1;
+            s +=  1 / y;
+            
+
+        } 
+            Console.Write("s=" + s);
+    }
+}
